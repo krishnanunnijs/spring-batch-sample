@@ -1,0 +1,27 @@
+= spring-batch-sample
+Demo project for Spring Batch
+
+This is a Spring Cloud Task application that executes a simple Spring Batch Job.
+
+== Requirements:
+
+* Java 8
+
+== Classes:
+
+* SpringBatchApplication - the Spring Boot Main Application
+* BatchJobConfiguration - the configuration for the Spring Batch jobs
+
+== Build:
+
+[source,shell,indent=2]
+----
+$ mvn clean package
+----
+
+== Run:
+
+[source,shell,indent=2]
+----
+$ java -jar target/spring-batch-0.0.1-SNAPSHOT.jar
+----
